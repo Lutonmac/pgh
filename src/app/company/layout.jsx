@@ -2,7 +2,7 @@ import List from "./page"
 
   export const metadata = {
     title: 'Company',
-    description: 'CAbout PGH company policy',
+    description: 'About PGH company policy',
   }
   
   export default function layout() {

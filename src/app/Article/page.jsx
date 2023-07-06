@@ -63,7 +63,7 @@ const data = [
 export let doctorInfo = data.slice()
 export default function Article() {
     const doctors = data.map((doctor)=>(
-        <div className={`border-[1px] rounded-md  shadow-md md:hover:shadow-2xl transition-all ease-in-out md:hover:shadow-gray-500 shadow-gray-600 border-black p-4 ${doctor.bg}`}>
+        <div key={doctor.id} className={`border-[1px] rounded-md  shadow-md md:hover:shadow-2xl transition-all ease-in-out md:hover:shadow-gray-500 shadow-gray-600 border-black p-4 ${doctor.bg}`}>
         <Link href={`../Article/${doctor.id}`}> <span className='flex justify-center'>
          <Image src={doctor.profileImage} alt={doctor.link.name} width={400} height={200} title={`Read more information about ${doctor.link.name}`}  />
          </span>

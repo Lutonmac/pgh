@@ -43,7 +43,7 @@ export default function Navbar() {
         </div>
         <div onClick={handleNav}
          className='sm:hidden '>
-            <RxHamburgerMenu size={30}/>
+           <RxHamburgerMenu size={30}/>
             
         </div>
         </div>
