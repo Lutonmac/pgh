@@ -40,7 +40,7 @@ export default function Body() {
   </div>
   <div className='bg-[#0A132E] p-8 md:p-14'>
     <section className='flex justify-center text-white py-8 md:py-16'>
-      <h2>We've been mentioned in the press</h2>
+      <h2>We&apos;ve been mentioned in the press</h2>
     </section>
     <article>
       <ul className='md:flex p-1 text-[#4977F6] md:justify-around grid justify-center'>

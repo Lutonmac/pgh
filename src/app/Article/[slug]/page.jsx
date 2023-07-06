@@ -11,7 +11,7 @@ import design from '../../style.module.css'
         return remote
     }
 
-export default function page({params}) {
+export default function Page({params}) {
     const remote = dentist(params)
     const [backGroundColor, setBackgroundColor] = useState()
     useEffect(function() {
