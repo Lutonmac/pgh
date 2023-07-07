@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import  logo  from "../../../public/logo.png";
 import Link from 'next/link';
-import { RxHamburgerMenu}  from "react-icons/rx";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 
 export default function Navbar() {
@@ -43,7 +43,7 @@ export default function Navbar() {
         </div>
         <div onClick={handleNav}
          className='sm:hidden '>
-           <RxHamburgerMenu size={30}/>
+        <RxHamburgerMenu size={30} />
             
         </div>
         </div>

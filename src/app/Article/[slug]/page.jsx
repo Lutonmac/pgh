@@ -29,9 +29,9 @@ export default function Page({params}) {
     )
   return (
     <main className={`h-screen ${design.flip}  `} >
-    <div className='flex justify-center text-white p-32 md:h-screen items-center'>
+    <div className='flex justify-center text-white p md:h-screen items-center'>
         
-        <section className={`p-10 border-[1px] border-white shadow-lg shadow-gray-500 rounded-md w-screen md:w-[30%] `} style={{background: backGroundColor}} >
+        <section className={`p-10 border-[1px] border-white shadow-lg shadow-gray-500 mt-10 rounded-md w-screen md:w-[30%] `} style={{background: backGroundColor}} >
             <span className='flex justify-center '>
             <Image src={remote.profileImage} width={500} height={400} className='rounded-md'/></span>
             <div className='py-5'>
